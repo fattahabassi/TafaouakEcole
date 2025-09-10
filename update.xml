@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<item>
-  <version>1.5</version>
-  <url>https://github.com/<username>/EcoleSoftUpdates/raw/main/updates/EcoleSoft-1.5-setup.exe</url>
-  <changelog>https://raw.githubusercontent.com/<username>/EcoleSoftUpdates/main/updates/changelog.txt</changelog>
-  <mandatory>false</mandatory>
-  <args>/VERYSILENT /SUPPRESSMSGBOXES /NORESTART</args>
-</item>
