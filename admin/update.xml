@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <item>
-  <version>1.0.0.10</version>
-  <url>https://raw.githubusercontent.com/fattahabassi/TafaouakEcole/refs/heads/main/releases/admin/EcoleSoftAdmin.exe</url>
+  <version>1.0.0.11</version>
+  <url>https://raw.githubusercontent.com/fattahabassi/TafaouakEcole/refs/heads/main/admin/EcoleSoftAdmin.exe</url>
   <mandatory>false</mandatory>
   <changelog>Initial release.</changelog>
 </item>
