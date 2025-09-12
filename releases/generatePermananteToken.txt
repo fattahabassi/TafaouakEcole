@@ -1,0 +1,28 @@
+
+1) Add appp to drobbox and enable additionla user 'add http//localhost ' as redirect url
+
+2) run this in cmd winodw
+set APP_KEY=rcfk5lqtm1haid9
+set REDIRECT_URI=http://localhost
+set STATE=12347
+echo "https://www.dropbox.com/oauth2/authorize?client_id=%APP_KEY%&response_type=code&token_access_type=offline&redirect_uri=%REDIRECT_URI%&state=%STATE%"
+
+
+3)  copie the given url by echo "...." and put it in browser
+
+https://www.dropbox.com/oauth2/authorize?client_id=rcfk5lqtm1haid9&response_type=code&token_access_type=offline&redirect_uri=http//localhost&state=12345
+
+4) you got a link : "http://localhost/?code=EW9Yvd46q5oAAAAAAAAGtgsdDj5aqeYIHxpTlLjz7YU&state=12347"
+
+
+5) then use this to get fresh token : 
+
+
+set AUTHORIZATION_CODE=EW9Yvd46q5oAAAAAAAAGtgsdDj5aqeYIHxpTlLjz7YU
+set APP_SECRET=s89lzqmaagkmqv0
+curl -X POST https://api.dropbox.com/oauth2/token ^
+-d code=%AUTHORIZATION_CODE% ^
+-d grant_type=authorization_code ^
+-d client_id=%APP_KEY% ^
+-d client_secret=%APP_SECRET% ^
+-d redirect_uri=%REDIRECT_URI%
