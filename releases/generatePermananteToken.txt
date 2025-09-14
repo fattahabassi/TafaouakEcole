@@ -26,3 +26,7 @@ curl -X POST https://api.dropbox.com/oauth2/token ^
 -d client_id=%APP_KEY% ^
 -d client_secret=%APP_SECRET% ^
 -d redirect_uri=%REDIRECT_URI%
+
+
+
+Pour plus d'information visiter :https://peterbanigo.com/how-to-get-a-long-lived-access-token-refresh-token-for-dropbox/
