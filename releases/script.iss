@@ -42,13 +42,13 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Source: "D:\Projet Visual Studio\TafouakEcole_Version_7_08_2025\EcolePriveSoft\bin\Release\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\TafouakEcole_Version_7_08_2025\EcolePriveSoft\bin\Release\AdvancedDataGridView.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\TafouakEcole_Version_7_08_2025\EcolePriveSoft\bin\Release\AutoUpdater.NET.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\Projet Visual Studio\TafouakEcole_Version_7_08_2025\packages\Newtonsoft.Json.13.0.3\lib\net40\Newtonsoft.Json.dll";      DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\TafouakEcole_Version_7_08_2025\EcolePriveSoft\bin\Release\AutoUpdater.NET.pdb"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\TafouakEcole_Version_7_08_2025\EcolePriveSoft\bin\Release\AutoUpdater.NET.xml"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\TafouakEcole_Version_7_08_2025\EcolePriveSoft\bin\Release\ecole.ico"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\TafouakEcole_Version_7_08_2025\EcolePriveSoft\bin\Release\EcolePriveSoft.application"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\TafouakEcole_Version_7_08_2025\EcolePriveSoft\bin\Release\EcolePriveSoft.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\TafouakEcole_Version_7_08_2025\EcolePriveSoft\bin\Release\EcolePriveSoft.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Projet Visual Studio\TafouakEcole_Version_7_08_2025\EcolePriveSoft\bin\Release\EcolePriveSoft.exe.locked"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\TafouakEcole_Version_7_08_2025\EcolePriveSoft\bin\Release\EcolePriveSoft.exe.manifest"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\TafouakEcole_Version_7_08_2025\EcolePriveSoft\bin\Release\EcolePriveSoft.pdb"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\TafouakEcole_Version_7_08_2025\EcolePriveSoft\bin\Release\EnvDTE.dll"; DestDir: "{app}"; Flags: ignoreversion
