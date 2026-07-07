@@ -53,7 +53,6 @@ Source: "{#MyRoot}\EcolePriveSoft\bin\Release\EcolePriveSoft.exe.config"; DestDi
 Source: "{#MyRoot}\EcolePriveSoft\bin\Release\EcolePriveSoft.exe.manifest"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#MyRoot}\EcolePriveSoft\bin\Release\EcolePriveSoft.pdb"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#MyRoot}\EcolePriveSoft\bin\Release\EnvDTE.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "{#MyRoot}\EcolePriveSoft\bin\Release\EnvDTE.xml"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#MyRoot}\EcolePriveSoft\bin\Release\Microsoft.ReportViewer.Common.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#MyRoot}\EcolePriveSoft\bin\Release\Microsoft.ReportViewer.DataVisualization.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#MyRoot}\EcolePriveSoft\bin\Release\Microsoft.ReportViewer.Design.dll"; DestDir: "{app}"; Flags: ignoreversion
